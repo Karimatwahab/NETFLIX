@@ -30,17 +30,20 @@ header {
      display: flex;
      justify-content: space-between;
      align-items: center;
+     width: 100%;
      padding: 10px 40px;
 
 }
 
 .sign-in {
-     padding: 10px 13px;
+     padding: 10px 15px;
      background-color: rgb(238, 16, 16);
      color: white;
      border: none;
      border-radius: 5px;
      margin: 40px;
+     font-weight: bold;
+     font-size: 15px;
 }
 
 .hero {
@@ -48,6 +51,7 @@ header {
      justify-content: center;
      align-items: center;
      flex-direction: column;
+     text-align: center;
 
 }
 
@@ -64,12 +68,30 @@ h2 {
 }
 
 .btn {
+     display: flex;
+     justify-content: center;
      padding: 20px;
      margin-bottom: 40px;
+
+
 }
 
-#email {
-     padding: 12px;
+.btn input {
+     padding: 14px;
      background-color: #1f1c1c;
+     width: 400px;
+     border-radius: 4px;
+     font-size: 16px;
+     margin-right: 10px;
+     border: none;
+}
 
+.btn button {
+     background-color: red;
+     color: aliceblue;
+     padding: 10px 13px;
+     border: none;
+     border-radius: 4px;
+     font-size: 17px;
+     font-weight: bold;
 }
