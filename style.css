@@ -48,6 +48,15 @@ header {
      font-size: 15px;
 }
 
+.sign-in a {
+     color: white;
+     text-decoration: none;
+}
+
+.sign-in:hover {
+     background-color: rgb(226, 46, 46);
+}
+
 .hero {
      display: flex;
      justify-content: center;
