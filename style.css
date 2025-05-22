@@ -34,7 +34,10 @@ header {
      width: 100%;
      padding: 10px 40px;
 
+}
 
+.logo {
+     width: 200px;
 }
 
 .sign-in {
@@ -114,22 +117,21 @@ header {
      font-weight: bold;
 }
 
-.options {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     gap: 20px;
-
-}
 
 .movies h3 {
      font-size: 25px;
-     padding: 20px;
+     margin: 20px;
 }
 
-img {
-     padding: 15px;
-     border-radius: 20px;
+.Trending-list {
+     display: flex;
+     gap: 20px;
+     padding-bottom: 20px;
+     justify-content: center;
+}
+
+.Trending-list img {
+     border-radius: 15px;
      transition: transform 0.1s;
 }
 
@@ -137,47 +139,92 @@ img:hover {
      transform: scale(1.1);
 }
 
-.option {
+.options {
      display: flex;
      justify-content: center;
+     align-items: center;
+}
+
+.options h3 {
+     font-size: 25px;
+     margin: 20px;
+}
+
+.reasons-list {
+     display: flex;
+     justify-content: center;
+
+     flex-direction: row;
      width: 100%;
+     max-width: 1200px;
      gap: 20px;
-     margin: auto;
-
-
+     flex: 1;
 }
 
-.option-1 {
+
+
+.reason-1 {
      background: linear-gradient(to right, #6b0d50, #1b0431);
-     width: 30%;
+     width: 25%;
      text-align: start;
      padding: 20px;
      border-radius: 10px;
 }
 
-.option-2 {
+.reason-2 {
      background: linear-gradient(to right, #6b0d50, #1b0431);
-     width: 30%;
-     text-align: start;
-     padding: 20px;
-     border-radius: 10px;
-
-}
-
-.option-3 {
-     background: linear-gradient(to right, #6b0d50, #1b0431);
-     width: 30%;
+     width: 25%;
      text-align: start;
      padding: 20px;
      border-radius: 10px;
 
 }
 
-.option-4 {
+.reason-3 {
      background: linear-gradient(to right, #6b0d50, #1b0431);
-     width: 30%;
+     width: 25%;
      text-align: start;
      padding: 20px;
      border-radius: 10px;
 
+}
+
+.reason-4 {
+     background: linear-gradient(to right, #6b0d50, #1b0431);
+     width: 25%;
+     text-align: start;
+     padding: 20px;
+     border-radius: 10px;
+
+}
+
+.faq-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+
+
+.faq-cont {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 25px;
+     margin-bottom: 10px;
+     width: 100%;
+     max-width: 1200px;
+     background-color: #303030;
+     font-size: 24px;
+}
+
+.faq-cont .plus {
+     font-size: 30px;
+}
+
+.footer-text {
+     text-align: center;
+     margin-top: 28px;
+     font-size: 15px;
 }

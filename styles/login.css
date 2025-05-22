@@ -197,7 +197,7 @@ body::before {
 }
 
 .checkbox:checked::after {
-    content: '';
+    content: ' ';
     position: absolute;
     left: 5px;
     top: 2px;
