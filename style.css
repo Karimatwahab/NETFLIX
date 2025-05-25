@@ -130,6 +130,22 @@ img:hover {
 .option {
      display: flex;
      justify-content: center;
+<<<<<<< Updated upstream
+=======
+     align-items: center;
+     margin: auto;
+}
+
+.options h3 {
+     font-size: 25px;
+     margin: 20px;
+}
+
+.reasons-list {
+     display: flex;
+
+     flex-direction: row;
+>>>>>>> Stashed changes
      width: 100%;
      gap: 20px;
      margin: auto;
@@ -176,6 +192,32 @@ img:hover {
      display: flex;
      justify-content: center;
      align-items: center;
+<<<<<<< Updated upstream
      display: block;
      flex-direction: row;
+=======
+     flex-direction: column;
+}
+
+.faq-cont {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 25px;
+     margin-bottom: 10px;
+     width: 100%;
+     max-width: 1200px;
+     background-color: #303030;
+     font-size: 24px;
+}
+
+.faq-cont .plus {
+     font-size: 30px;
+}
+
+.footer-text {
+     text-align: center;
+     margin-top: 28px;
+     font-size: 15px;
+>>>>>>> Stashed changes
 }
